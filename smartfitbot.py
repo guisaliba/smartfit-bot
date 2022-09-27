@@ -2,10 +2,10 @@ import tweepy
 import time
 import datetime
 
-client = tweepy.Client(consumer_key='JI5kIiurU2b4cNkZiwZZJXaou',
-                       consumer_secret='JwRMT3D5aCqbAYWVobQZCuHw659FA2CcZYkImgcIHi3t6MHJzC',
-                       access_token='1524542526279016451-ZtHfTK7s1XggPacyL0RnSzVAF12ZUJ',
-                       access_token_secret='4v2D6Yo33F7z48U6bYhImkptSwa7BZOOWnVfSQbpZzh2W')
+client = tweepy.Client(consumer_key='INSERT-YOUR-CONSUMER-KEY',
+                       consumer_secret='INSERT-YOUR-CONSUMER-SECRET',
+                       access_token='INSERT-YOUR-ACESS-TOKEN',
+                       access_token_secret='INSERT-YOUR-ACESS-TOKEN-SECRET')
 
 def tweet():
     firstdate = '25/05/2022'
@@ -22,7 +22,7 @@ def tweet():
     else:
         suffix = ""
 
-    return f"O armário 53 da SmartFit está ocupado há {resultdate.days} dias {suffix}"
+    return f"Esse armário está ocupado há {resultdate.days} dias {suffix}"
 
 
 def write():
