@@ -5,7 +5,7 @@
 
 ## Description
 
-A simple bot made with Python using tweepy library that tweeted something every 60 minutes. This bot was developed with unique purposes of studying and learning the programming language of Python and it's capabilities. The only interaction of this bot with Twitter's APIs at the time was to publish an identical tweet once an hour on its own behalf. Currently deactivated due to X new APIs policies and prices.
+A simple bot made with Python using tweepy library that tweeted something every 60 minutes. This bot was developed with unique purposes of studying and learning the Python programming language and some of its capabilities. The only interaction of this bot with Twitter's APIs at the time was to publish an identical tweet once an hour on its own behalf. Currently deactivated due to X new APIs policies and prices.
 
 ## Technologies
 
